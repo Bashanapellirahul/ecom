@@ -64,7 +64,7 @@ public class EcommerceWebsitePractice {
 		WebElement clickOnCartButton = driver.findElement(By.xpath("//a[@class='shopping_cart_link']"));
 		Thread.sleep(2000);
 		clickOnCartButton.click();
-		ScreenShot.scrnshot(driver, "Clicking_on_shopping_cart_link");
+		ScreenShot.scrnshot(driver, "Clicking_on_shopping_cart_links");
 		
 		WebElement checkOutElement = driver.findElement(By.xpath("//button[@id='checkout']"));
 		Thread.sleep(2000);
