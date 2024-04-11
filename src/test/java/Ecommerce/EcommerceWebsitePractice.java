@@ -25,6 +25,7 @@ public class EcommerceWebsitePractice {
 		driver = new ChromeDriver();
 		
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofMinutes(10));
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));	
 		ScreenShot.scrnshot(driver, "Launching url");
